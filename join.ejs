@@ -18,15 +18,15 @@
       <form action="index.html" method="POST" id="login-form">
         <label for="user-email">E-mail</label>
         <div class="email">
-          <input type="text" id="user-email" placeholder="e-mail을 작성해주세요." />
+          <input required type="text" id="user-email" placeholder="e-mail을 작성해주세요." />
         </div>
         <label for="user-pw">비밀번호</label>
         <div class="pw">
-          <input type="password" id="user-pw" placeholder="비밀번호를 작성해주세요." />
+          <input required type="password" id="user-pw" placeholder="비밀번호를 작성해주세요." />
         </div>
         <label for="user-pw_confirm">비밀번호 확인</label>
         <div class="pw-confirm">
-          <input
+          <input required
             type="password"
             id="user-pw_confirm"
             placeholder="비밀번호를 확인해주세요."
@@ -34,18 +34,18 @@
         </div>
         <div class="name">
           <label for="user-name">이름</label>
-          <input type="text" id="user-name" placeholder="이름을 작성해주세요." />
+          <input required type="text" id="user-name" placeholder="이름을 작성해주세요." />
         </div>
         <label for="user-birth">생년월일</label>
         <div class="birth">
-          <input type="date" id="user-birth" value="2020-01-01" />
+          <input required type="date" id="user-birth" value="2020-01-01" />
         </div>
         <label for="user-phone">휴대전화</label>
         <div class="phone">
-          <input type="text" id="user-phone" placeholder="'-'를 제외한 전화번호를 입력해주세요. ex) 01012345678" />
+          <input required type="text" id="user-phone" placeholder="'-'를 제외한 전화번호를 입력해주세요. ex) 01012345678" />
         </div>
         <label for="user-sex">성별</label>
-        <select class="sex" id="user-sex" aria-label="성별">
+        <select required class="sex" id="user-sex" aria-label="성별">
           <option value selected>성별을 선택해주세요.</option>
           <option value="male">남자</option>
           <option value="female">여자</option>
@@ -54,5 +54,6 @@
       </form>
      </main>
     </div>
+    <script src="js/join.js"></script>
   </body>
 </html>
