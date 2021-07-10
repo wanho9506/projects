@@ -15,9 +15,6 @@ app.set("view engine", "ejs");
 app.engine("html", require("ejs").renderFile);
 
 const hello = "환영한다"
-const fuck = "you"
-
-const ilove = "u"
 
 const aabcd = "abc"
 
