@@ -5,13 +5,12 @@ const registerValidator = require("../middlewares/registerValidater")
 const jwt = require("jsonwebtoken");
 const Joi = require("joi");
 const secretKey = require("../config/secretKey");
-const multer = require("multer")
 const User = require("../models/user");
 const crypto = require('crypto');
 
 
 //회원가입
-router.post('/signup', registerValidator, (req,res) => {
+router.post('/signup', registerValidator, async (req,res) => {
 
     try{
         const { email, password, name, phone, sex, birth } = req.body;
@@ -37,7 +36,7 @@ const loginValidater = Joi.object({
 });
 
 //로그인
-router.post('/login', (req,res) => {
+router.post('/login', async (req,res) => {
     try {
         const { email, password } = await loginValidater.validateAsync(req.body);
         
@@ -75,10 +74,6 @@ router.get('/auth', authMiddleware, async (req, res) => {
 });
 
 
-const loginValidater = Joi.object({
-    email: Joi.string().email().required(),
-    password: Joi.string().min(4).trim().required(),
-});
 
 module.exports = router;
 

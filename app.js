@@ -1,5 +1,5 @@
 const express = require('express')
-const connect = require("./config");
+const connect = require("./config/secretKey");
 const mainRouter = require("./routers/index");
 const app = express();
 const router = express.Router();
