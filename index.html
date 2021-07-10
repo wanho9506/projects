@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SORINURI</title>
+  </head>
+  <body>
+    <header>
+      <div>회원가입</div>
+    </header>
+    <main>
+      <form action="main.html" method="get" id="login-form">
+        <div class="name">
+          <label for="user-name">이름</label>
+          <input type="text" id="user-name" placeholder="name" />
+        </div>
+        <label for="user-email">E-mail</label>
+        <div class="email">
+          <input type="text" id="user-email" placeholder="e-mail" />
+        </div>
+        <label for="user-pw">비밀번호</label>
+        <div class="pw">
+          <input type="password" id="user-pw" placeholder="password" />
+        </div>
+        <label for="user-pw_confirm">비밀번호 확인</label>
+        <div class="pw-confirm">
+          <input
+            type="password"
+            id="user-pw_confirm"
+            placeholder="password-confirm"
+          />
+        </div>
+        <label for="user-birth">생년월일</label>
+        <div class="birth">
+          <input type="date" id="user-birth" value="2020-01-01" />
+        </div>
+        <label for="user-phone">휴대전화</label>
+        <div class="phone">
+          <input type="text" id="user-phone" placeholder="010-1234-5678" />
+        </div>
+        <label for="user-sex">성별</label>
+        <form class="sex" id="user-sex">
+          <input type="radio" id="sex-male" name="sex" value="male" />
+          <label for="sex-male">남</label>
+          <input type="radio" id="sex-female" name="sex" value="female" />
+          <label for="sex-female">여</label>
+        </form>
+        <input type="submit" value="회원가입" />
+      </form>
+    </main>
+  </body>
+</html>
