@@ -16,7 +16,7 @@ app.engine("html", require("ejs").renderFile);
 
 const hello = "환영한다"
 const fuck = "you"
-
+const git = "stash"
 
 app.listen(8080, () => {
   console.log("서버가 요청을 받을 준비가 됐어요");
