@@ -15,6 +15,7 @@ app.set("view engine", "ejs");
 app.engine("html", require("ejs").renderFile);
 
 const hello = "환영한다"
+const fuck = "you"
 
 
 app.listen(8080, () => {
