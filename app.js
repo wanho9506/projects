@@ -10,6 +10,9 @@ app.use(
   express.json(),
   mainRouter
 );
+
+
+app.use(express.static(__dirname + '/views'));
 app.set('views', __dirname + '/views');
 app.set("view engine", "ejs");
 app.engine("html", require("ejs").renderFile);
