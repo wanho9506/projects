@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
-@import "reset.css";
-@import "variables.css";
+@import "../css/reset.css";
+@import "../css/variables.css";
 
 /* Components */
-@import "components/logo.css";
+@import "../components/logo.css";
+@import "../components/input-deco.css";
 
 /* Screens */
-@import "screen/join.css";
+@import "../css/screen/join.css";
 
 /* pin */
 body {

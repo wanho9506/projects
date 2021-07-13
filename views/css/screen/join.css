@@ -9,6 +9,16 @@
   padding: 60px;
 }
 
+.outline {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
 #login-form label {
   display: block;
   padding: 10px 0;
@@ -33,7 +43,7 @@ select {
 
 input:focus,
 select:focus {
-  border-color: var(--blue);
+  border-color: #426dfb;
 }
 
 input[type="submit"] {
@@ -47,4 +57,13 @@ input::placeholder {
 
 .name {
   margin-top: 50px;
+}
+
+.input-deco {
+  padding: 10px;
+}
+
+.input-deco:hover {
+  border-radius: 5px;
+  border: 1.5px solid white;
 }
