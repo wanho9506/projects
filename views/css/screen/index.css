@@ -1,0 +1,23 @@
+.h-screen {
+  height: 200vh;
+  position: relative;
+}
+
+.h-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 700px;
+  background: url("image/bg.jpeg") no-repeat center/cover;
+}
+
+.nav {
+  background-color: violet;
+}
+
+.sections {
+  background-color: yellow;
+  width: 10vw;
+  height: 100px;
+}

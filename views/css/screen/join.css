@@ -1,22 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .join-screen {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
+  padding: 0 200px;
+  border: 1.5px solid white;
 }
 
 .join-header {
   padding: 60px;
-}
-
-.outline {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid white;
-  border-radius: 5px;
 }
 
 #login-form label {
@@ -38,8 +36,12 @@ select {
 }
 
 .join-btn {
-  margin: 50px 0;
+  margin: 50px 0 50px 10px;
   padding: 0;
+}
+
+.join-btn:hover {
+  cursor: pointer;
 }
 
 input:focus,
@@ -58,4 +60,13 @@ input::placeholder {
 
 .name {
   margin-top: 50px;
+}
+
+.input-deco {
+  padding: 10px;
+}
+
+.input-deco:hover {
+  border-radius: 5px;
+  border: 1.5px solid white;
 }

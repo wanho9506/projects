@@ -6,10 +6,10 @@
 
 /* Components */
 @import "../components/logo.css";
-@import "../components/input-deco.css";
 
 /* Screens */
 @import "../css/screen/join.css";
+@import "../css/screen/index.css";
 
 /* pin */
 body {
