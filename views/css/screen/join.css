@@ -58,12 +58,3 @@ input::placeholder {
 .name {
   margin-top: 50px;
 }
-
-.input-deco {
-  padding: 10px;
-}
-
-.input-deco:hover {
-  border-radius: 5px;
-  border: 1.5px solid white;
-}
