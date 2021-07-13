@@ -8,8 +8,8 @@ const secretKey = require("../config/secretKey");
 const User = require("../models/user");
 const crypto = require("crypto");
 
-router.post("/get", async (req, res) => {
-  res.render("join.ejs");
+router.get("/", async (req, res) => {
+  res.render("join.html");
 });
 
 //회원가입
