@@ -39,6 +39,7 @@ select {
 
 .join-btn {
   margin: 50px 0;
+  padding: 0;
 }
 
 input:focus,
