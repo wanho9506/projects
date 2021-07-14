@@ -4,6 +4,10 @@ body {
   align-items: center;
 }
 
+.join-body {
+  background-color: black;
+}
+
 .join-screen {
   display: flex;
   flex-direction: column;

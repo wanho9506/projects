@@ -1,17 +1,4 @@
-.sori,
-.nuri {
-  font-family: "Zen Loop", cursive;
-  color: #426dfb;
-  display: block;
-  font-size: 90px;
-  line-height: 70px;
-  text-shadow: 0 0 30px #2356ff;
-  animation: neon 1s ease infinite;
-  -moz-animation: neon 1s ease infinite;
-  -webkit-animation: neon 1s ease infinite;
-}
-
-@keyframes neon {
+@keyframes neon__lg {
   0%,
   100% {
     text-shadow: 0 0 10px #1041ff, 0 0 30px #1041ff, 0 0 100px #1041ff,
@@ -25,17 +12,70 @@
   }
 }
 
-.outline {
+.sori__lg,
+.nuri__lg {
+  font-family: "Zen Loop", cursive;
+  color: #426dfb;
+  display: block;
+  font-size: 90px;
+  line-height: 70px;
+  text-shadow: 0 0 30px #2356ff;
+  animation: neon__lg 1s ease infinite;
+  -moz-animation: neon__lg 1s ease infinite;
+  -webkit-animation: neon__lg 1s ease infinite;
+}
+
+.outline__lg {
   width: 180px;
   height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid #28d7fe;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px #2356ff;
 }
 
+@keyframes neon__xs {
+  0%,
+  100% {
+    text-shadow: 0 0 5px #1041ff, 0 0 15px #1041ff, 0 0 50px #1041ff,
+      0 0 50px #1041ff, 0 0 2px #8bfdfe, 2px 2px 0.5px #147280;
+    color: #28d7fe;
+  }
+  50% {
+    text-shadow: 0 0 2.5px #082180, 0 0 7px #082180, 0 0 25px #082180,
+      0 0 25px #082180, 0 0 1px #082180, 2px 2px 0.5px #0a3940;
+    color: #146c80;
+  }
+}
+
+.h-logo__xs {
+}
+
+.sori__xs,
+.nuri__xs {
+  font-family: "Zen Loop", cursive;
+  color: #426dfb;
+  font-size: 40px;
+  line-height: 30px;
+  text-shadow: 0 0 2px #2356ff;
+  animation: neon__xs 1s ease infinite;
+  -moz-animation: neon__xs 1s ease infinite;
+  -webkit-animation: neon__xs 1s ease infinite;
+}
+
+.outline__xs {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #28d7fe;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #2356ff;
+  margin-right: auto;
+}
 /* .flux { 
   animation: flux 2s linear infinite;
   -moz-animation: flux 2s linear infinite;
