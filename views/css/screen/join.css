@@ -1,4 +1,4 @@
-body {
+.join-body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +26,7 @@ body {
   padding: 10px 0;
 }
 
-main form input,
+.join-body main form input,
 select {
   display: block;
   width: 400px;
@@ -48,17 +48,17 @@ select {
   cursor: pointer;
 }
 
-input:focus,
-select:focus {
+.join-body input:focus,
+.join-body select:focus {
   border-color: #426dfb;
 }
 
-input[type="submit"] {
+.join-body input[type="submit"] {
   font-family: "Jua", sans-serif;
   background-color: white;
 }
 
-input::placeholder {
+.join-body input::placeholder {
   color: black;
 }
 

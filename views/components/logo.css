@@ -1,3 +1,10 @@
+.h_logo {
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--blue);
+  display: block;
+}
+
 @keyframes neon__lg {
   0%,
   100% {
@@ -50,9 +57,6 @@
   }
 }
 
-.h-logo__xs {
-}
-
 .sori__xs,
 .nuri__xs {
   font-family: "Zen Loop", cursive;
@@ -75,6 +79,13 @@
   border-radius: 5px;
   box-shadow: 0 0 10px #2356ff;
   margin-right: auto;
+}
+
+.h-logo__text {
+  font-size: 40px;
+  border: 1.5px solid var(--white);
+  border-radius: 10px;
+  padding: 7px;
 }
 /* .flux { 
   animation: flux 2s linear infinite;
