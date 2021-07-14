@@ -5,7 +5,7 @@
 }
 
 .join-body {
-  background-color: black;
+  background: rgba(9, 156, 144, 0.9);
 }
 
 .join-screen {
@@ -15,6 +15,7 @@
   color: white;
   padding: 0 200px;
   border: 1.5px solid white;
+  background: teal;
 }
 
 .join-header {
@@ -26,7 +27,7 @@
   padding: 10px 0;
 }
 
-.join-body main form input,
+.join-body input:not([type="submit"]),
 select {
   display: block;
   width: 400px;
@@ -40,8 +41,15 @@ select {
 }
 
 .join-btn {
-  margin: 50px 0 50px 10px;
-  padding: 0;
+  display: block;
+  width: 400px;
+  height: 45px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin: 50px 10px 10px 10px;
 }
 
 .join-btn:hover {

@@ -47,12 +47,12 @@
   0%,
   100% {
     text-shadow: 0 0 5px #1041ff, 0 0 15px #1041ff, 0 0 50px #1041ff,
-      0 0 50px #1041ff, 0 0 2px #8bfdfe, 2px 2px 0.5px #147280;
+      0 0 50px #1041ff, 0 0 2px #8bfdfe, 2px 2px 0.5px #22abc0;
     color: #28d7fe;
   }
   50% {
-    text-shadow: 0 0 2.5px #082180, 0 0 7px #082180, 0 0 25px #082180,
-      0 0 25px #082180, 0 0 1px #082180, 2px 2px 0.5px #0a3940;
+    text-shadow: 0 0 2.5px #0e3d94, 0 0 7px #0e3d94, 0 0 25px #0e3d94,
+      0 0 25px #0e3d94, 0 0 1px #0e3d94, 2px 2px 0.5px #229eb1;
     color: #146c80;
   }
 }
